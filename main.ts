@@ -10,5 +10,6 @@ basic.forever(function () {
     } else {
         serial.writeValue("x", 1)
         pin()
+        radio.sendValue("ALA", 1)
     }
 })
